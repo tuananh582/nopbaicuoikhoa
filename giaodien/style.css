@@ -2,3 +2,206 @@
     position: relative;
     right: -130px;
 }
+#anh1{
+    width: 327px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-1{
+    position: relative;
+    top: 20px;
+}
+.habit-1{
+    display: flex;
+}
+.name-1{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-1 p{
+    width: 55px;
+    height: 28px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+#anh2{
+    position: relative;
+    margin-left: 20px;
+    width: 327px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-2{
+    position: relative;
+    top: 20px;
+}
+.habit-2{
+    display: flex;
+}
+.name-2{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-2 p {
+    display: block;
+    width: 55px;
+    height: 28px;
+    color: blue;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+    vertical-align: middle;
+}
+#anh3{
+    position: relative;
+    margin-left: 20px;
+    width: 350px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-3{
+    position: relative;
+    top: 20px;
+}
+.name-3{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-3{
+    display: flex;
+    position: relative;
+    left: -20px;
+}
+.habit-3 p {
+    display: block;
+    width: 60px;
+    height: 28px;
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+    vertical-align: middle;
+}
+#anh4{
+    position: relative;
+    margin-top: 10px;
+    left: -20px;
+    margin-left: 20px;
+    width: 327px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-4{
+    position: relative;
+    top: 20px;
+}
+.name-4{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-4{
+    display: flex;
+
+}
+.habit-4 p{
+    display: block;
+    width: 60px;
+    height: 28px;
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+    vertical-align: middle;
+}
+#anh5{
+    position: relative;
+    margin-top: 10px;
+    left: -20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-5{
+    position: relative;
+    top: 20px;
+}
+.name-5{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-5{
+    /* position: relative; */
+    display: flex;
+
+}
+.habit-5 p {
+    display: block;
+    width: 60px;
+    height: 28px;
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+    vertical-align: middle;
+}
+#anh6{
+    position: relative;
+    margin-top: 10px;
+    left: -20px;
+    margin-left: 20px;
+    width: 350px;
+    height: 208px;
+    border: 1px solid blue;
+    border-radius: 30px;
+}
+.anh-6{
+    position: relative;
+    top: 20px;
+}
+.name-6{
+    position: relative;
+    right: -100px;
+    top: -40px;
+}
+.habit-6{
+    display: flex;
+}
+.habit-6 p {
+    display: block;
+    width: 60px;
+    height: 28px;
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 20px;
+    position: relative;
+    right: -100px;
+    top: -40px;
+    vertical-align: middle;
+}

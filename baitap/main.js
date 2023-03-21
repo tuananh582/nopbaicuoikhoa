@@ -1,53 +1,27 @@
-let so1 = document.getElementById("number1").value;
-let so2 = document.getElementById("number2").value;
-let num=3;
-let sum = 0;
-// function isPrime(num) {
-//     // Trường hợp đặc biệt
-//     if (num <= 1) {
-//       return false;
-//     }
-  
-//     // Kiểm tra nếu num là 2 hoặc 3
-//     if (num === 2 || num === 3) {
-//       return true;
-//     }
-  
-//     // Kiểm tra nếu num là một số chẵn
-//     if (num % 2 === 0) {
-//       return false;
-//     }
-  
-//     // Lặp từ 3 đến căn bậc hai của num và kiểm tra các số lẻ trong đó
-//     for (let i = 3; i <= Math.sqrt(num); i += 2) {
-//       if (num % i === 0) {
-//         return false;
-//       }
-//     }
-  
-//     return true;
-//   }
-  function myfunction(a, b) {
-    
-  
-    // Lặp qua các số từ a đến b và kiểm tra xem chúng có phải là số nguyên tố hay không
-    for (let i = so1; i <= Math.sqrt(so2); i+=2) {
-      if (so2%i===0) {
-        return false
-      }
-      else{
-        sum+=i;
-      }
+function myfunction() {
+  var a = document.querySelector("#number1").value;
+  var b = document.querySelector("#number2").value;
+  var number = [];
+  var  primeNumbers=[]
+  var primeSum = 0;
+  for (var i = a; i <= b; i++) {
+    if (isPrime(i)) {
+      primeNumbers.push(i);
+      primeSum += i;
     }
-  
-    return sum;
   }
+  document.querySelector("#number").innerHTML = "Các số nguyên tố trong khoảng từ " + a + " đến " + b + " là: " + number.join(", ");
+  document.querySelector("#result").innerHTML = "Tổng các số nguyên tố trong khoảng từ " + a + " đến " + b + " là: " + primeSum;
+}
 
-
-myfunction(so1,so2)
-document.writeln(sum)
-// sumOfPrimesInRange(so1,so2)
-console.log("tong cac so nguyen to trong khoang tu a den b la : " +sum )
+function isPrime(num) {
+  if (num <= 1) return false;
+  for (var i = 2; i < num; i++) {
+    if (num % i === 0) return false;
+  }
+  return true;
+}
+isPrime(number)
 
 //bai 2 
 

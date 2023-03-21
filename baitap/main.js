@@ -31,16 +31,19 @@ let sum = 0;
     
   
     // Lặp qua các số từ a đến b và kiểm tra xem chúng có phải là số nguyên tố hay không
-    for (let i = so1; i <= so2; i++) {
-      if (isPrime(i)) {
-        sum += i;
+    for (let i = so1; i <= Math.sqrt(so2); i+=2) {
+      if (so2%i===0) {
+        return false
+      }
+      else{
+        sum+=i;
       }
     }
   
     return sum;
   }
 
-isPrime(num)
+
 myfunction(so1,so2)
 document.writeln(sum)
 // sumOfPrimesInRange(so1,so2)
@@ -52,7 +55,7 @@ console.log("tong cac so nguyen to trong khoang tu a den b la : " +sum )
 let sodong=4;
 function numberOneTriangle(a)
 {
-    for (let i = 0;i<sodong;i++)
+    for (let i = 0;i<=sodong;i++)
     {
         for(let j =0;j<i;j++)
         {
